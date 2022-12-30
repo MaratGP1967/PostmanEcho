@@ -21,7 +21,7 @@ public class CheckEcho {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some data русский"))
+                .body("data", equalTo("some русский"))
         ;
     }
 }
